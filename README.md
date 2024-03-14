@@ -102,7 +102,7 @@ https://github.com/f1yfisher/DriveDreamer2/assets/39218234/e5f713dc-665f-49e2-8f
 
 
 
-**DriveDreamer-2 Framework**
+# DriveDreamer-2 Framework
 
 <img width="1277" alt="method" src="https://github.com/f1yfisher/DriveDreamer2/assets/39218234/bbb8d658-793a-4b3c-b873-ea5332f7ec4b">
 
