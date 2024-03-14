@@ -12,9 +12,10 @@ We appreciate your patience and understanding as we navigate the necessary proce
 # Abstract 
 
 World models have demonstrated superiority in autonomous driving, particularly in the generation of multi-view driving videos. However, significant challenges still exist in generating customized driving videos. In this paper, we propose DriveDreamer-2, which builds upon the framework of DriveDreamer and incorporates a Large Language Model (LLM) to generate user-defined driving videos. Specifically, an LLM interface is initially incorporated to convert a user's query into agent trajectories. Subsequently, a HDMap, adhering to traffic regulations, is generated based on the trajectories. Ultimately, we propose the  Unified Multi-View Model to enhance temporal and spatial coherence in the generated driving videos. DriveDreamer-2 is the first world model to generate customized driving videos, it can generate uncommon driving videos (e.g., vehicles abruptly cut in) in a user-friendly manner. Besides, experimental results demonstrate that the generated videos enhance the training of driving perception methods (e.g., 3D detection and tracking). Furthermore, video generation quality of DriveDreamer-2 surpasses other state-of-the-art methods, showcasing FID and FVD scores of 11.2 and 55.7, representing relative improvements of 30% and 50%.
-<img width="1100" alt="abs" src="media/imgs/abs.png">
 
-<img width="1100" alt="abs" src="media/imgs/abs2.png">
+<img width="919" alt="abs" src="https://github.com/f1yfisher/DriveDreamer2/assets/39218234/e23cf401-5943-4fb3-b0ed-7d183a9df5cd">
+
+<img width="1327" alt="abs2" src="https://github.com/f1yfisher/DriveDreamer2/assets/39218234/edc11963-0443-4e3f-8309-8955330b4815">
 
 
 
@@ -27,64 +28,84 @@ World models have demonstrated superiority in autonomous driving, particularly i
 ## Results with Gnerated Structural Information
 **Daytime / rainy day / at night, a car abruptly cutting in from the right rear of ego-car.**
 
-<video preload="auto" src="./media/videos/cut_in_right.mp4" poster="" id="tree" autoplay controls muted loop width="1000px" outline="0px" >
-</video>
+
+
+https://github.com/f1yfisher/DriveDreamer2/assets/39218234/0df78173-9dcd-42f4-8cf8-f7e16b724f82
+
+
 
 **Rainy day, car abruptly cutting in from the left rear of ego-car. (long video)**
 
-<video preload="auto" src="./media/videos/long/cut_in.mp4" poster="" id="tree" autoplay controls muted loop width="1000px" outline="0px" >
-</video>
+
+
+https://github.com/f1yfisher/DriveDreamer2/assets/39218234/779fa0ad-595a-47f3-a52c-1c98c30fa640
+
+
 
 
 **Daytime, the ego-car changes lanes to the right side. (long video)**
 
-<video preload="auto" src="./media/videos/long/change_lane.mp4" poster="" id="tree" autoplay controls muted loop width="1000px" outline="0px" >
-</video>
+
+
+https://github.com/f1yfisher/DriveDreamer2/assets/39218234/36c0f9e6-b9d1-4bd1-ab5c-f2c28eb3294c
+
+
 
 **At night, a person crossing the road in the front of the ego-car. (long video)**
 
-<video preload="auto" src="./media/videos/long/crossing_road.mp4" poster="" id="tree" autoplay controls muted loop width="1000px" outline="0px" >
-</video>
 
-**At night, a person crossing the road in the front of the ego-car. (long video)**
 
-<video preload="auto" src="./media/videos/long/crossing_road.mp4" poster="" id="tree" autoplay controls muted loop width="1000px" outline="0px" >
-</video>
+https://github.com/f1yfisher/DriveDreamer2/assets/39218234/a0fc56f3-70e9-45c4-ba35-da4e6734c5a9
+
 
 ## Results with nuScenes Structural Information
 
-**Daytime / rainy day / at Night, ego-car drives through urban street, surrounded by a flow of vehicles on both sides.**
+**Daytime / rainy day / at night, ego-car drives through urban street, surrounded by a flow of vehicles on both sides.**
 
-<video preload="auto" src="./media/videos/vehicle_both_side.mp4" poster="" id="tree" autoplay controls muted loop width="1000px" outline="0px" >
-</video>
+
+
+https://github.com/f1yfisher/DriveDreamer2/assets/39218234/543656a4-729d-4b2c-b12d-6e75b3068669
+
+
 
 **Daytime / rainy day / at night, a bus is positioned to the left front of the ego-car, with a pedestrian near the bus.**
 
-<video preload="auto" src="./media/videos/bus.mp4" poster="" id="tree" autoplay controls muted loop width="1000px" outline="0px" >
-</video>
+
+
+https://github.com/f1yfisher/DriveDreamer2/assets/39218234/e43193ec-fb91-49ee-818c-b7a2c1a00909
+
+
 
 **Rainy day, the windshield wipers of the truck are continuously clearing the windshield.**
 
-<video preload="auto" src="./media/videos/windshield_wiper.mp4" poster="" id="tree" autoplay controls muted loop width="1000px" outline="0px" >
-</video>
+
+
+https://github.com/f1yfisher/DriveDreamer2/assets/39218234/d05c2ab9-5c41-4dd3-bbd2-7a69b049b891
+
+
 
 **Rainy day, the ego-car makes a left turn at the traffic signal, with vehicles behind proceeding straight through the intersection. (long video)**
 
-<video preload="auto" src="./media/videos/long/long1.mp4" poster="" id="tree" autoplay controls muted loop width="1000px" outline="0px" >
-</video>
+
+
+https://github.com/f1yfisher/DriveDreamer2/assets/39218234/d2d20f55-b318-4727-b8c5-70a72bce4f2b
+
+
 
 **Daytime, the ego-car drives straight through the traffic light, with a truck situated to the left front and pedestrians crossing on the right side. (long video)**
 
-<video preload="auto" src="./media/videos/long/long2.mp4" poster="" id="tree" autoplay controls muted loop width="1000px" outline="0px" >
-</video>
+
+
+
+https://github.com/f1yfisher/DriveDreamer2/assets/39218234/bcf4eb62-99d1-4351-977e-84a925d14152
 
 
 
 
 **DriveDreamer-2 Framework**
 
+<img width="1277" alt="method" src="https://github.com/f1yfisher/DriveDreamer2/assets/39218234/bbb8d658-793a-4b3c-b873-ea5332f7ec4b">
 
-<img width="1340" alt="method" src="./media/imgs/method.png">
 
 
 # Bibtex
