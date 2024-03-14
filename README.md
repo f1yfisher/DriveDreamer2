@@ -87,9 +87,7 @@ https://github.com/f1yfisher/DriveDreamer2/assets/39218234/d05c2ab9-5c41-4dd3-bb
 **Rainy day, the ego-car makes a left turn at the traffic signal, with vehicles behind proceeding straight through the intersection. (long video)**
 
 
-
-https://github.com/f1yfisher/DriveDreamer2/assets/39218234/d2d20f55-b318-4727-b8c5-70a72bce4f2b
-
+https://github.com/f1yfisher/DriveDreamer2/assets/39218234/a766b12b-05a3-4755-858e-040c8bbf6ece
 
 
 **Daytime, the ego-car drives straight through the traffic light, with a truck situated to the left front and pedestrians crossing on the right side. (long video)**
@@ -97,7 +95,9 @@ https://github.com/f1yfisher/DriveDreamer2/assets/39218234/d2d20f55-b318-4727-b8
 
 
 
-https://github.com/f1yfisher/DriveDreamer2/assets/39218234/bcf4eb62-99d1-4351-977e-84a925d14152
+
+https://github.com/f1yfisher/DriveDreamer2/assets/39218234/e5f713dc-665f-49e2-8f70-3c5de101ffb4
+
 
 
 
