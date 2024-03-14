@@ -50,11 +50,15 @@ https://github.com/f1yfisher/DriveDreamer2/assets/39218234/36c0f9e6-b9d1-4bd1-ab
 
 </div>
 
-**At night, a person crossing the road in the front of the ego-car. (long video)**
+**Rainy day, a person crossing the road in the front of the ego-car. (long video)**
 
 <div align="center">   
 
-https://github.com/f1yfisher/DriveDreamer2/assets/39218234/a0fc56f3-70e9-45c4-ba35-da4e6734c5a9
+
+
+https://github.com/f1yfisher/DriveDreamer2/assets/39218234/92f8cd31-a1b3-4516-ad03-331cf1ba4acb
+
+
 
 </div>
 
