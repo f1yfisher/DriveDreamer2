@@ -50,7 +50,7 @@ https://github.com/f1yfisher/DriveDreamer2/assets/39218234/36c0f9e6-b9d1-4bd1-ab
 
 </div>
 
-**Rainy day, a person crossing the road in the front of the ego-car. (long video)**
+**Rainy day, a person crosses the road in the front of the ego-car. (long video)**
 
 <div align="center">   
 
