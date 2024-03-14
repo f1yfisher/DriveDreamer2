@@ -28,77 +28,77 @@ World models have demonstrated superiority in autonomous driving, particularly i
 ## Results with Gnerated Structural Information
 **Daytime / rainy day / at night, a car abruptly cutting in from the right rear of ego-car.**
 
-
+<div align="center">   
 
 https://github.com/f1yfisher/DriveDreamer2/assets/39218234/0df78173-9dcd-42f4-8cf8-f7e16b724f82
 
-
+</div>
 
 **Rainy day, car abruptly cutting in from the left rear of ego-car. (long video)**
 
-
+<div align="center">   
 
 https://github.com/f1yfisher/DriveDreamer2/assets/39218234/779fa0ad-595a-47f3-a52c-1c98c30fa640
 
-
-
+</div>
 
 **Daytime, the ego-car changes lanes to the right side. (long video)**
 
-
+<div align="center">   
 
 https://github.com/f1yfisher/DriveDreamer2/assets/39218234/36c0f9e6-b9d1-4bd1-ab5c-f2c28eb3294c
 
-
+</div>
 
 **At night, a person crossing the road in the front of the ego-car. (long video)**
 
-
+<div align="center">   
 
 https://github.com/f1yfisher/DriveDreamer2/assets/39218234/a0fc56f3-70e9-45c4-ba35-da4e6734c5a9
 
+</div>
 
 ## Results with nuScenes Structural Information
 
 **Daytime / rainy day / at night, ego-car drives through urban street, surrounded by a flow of vehicles on both sides.**
 
-
+<div align="center">   
 
 https://github.com/f1yfisher/DriveDreamer2/assets/39218234/543656a4-729d-4b2c-b12d-6e75b3068669
 
-
+</div>
 
 **Daytime / rainy day / at night, a bus is positioned to the left front of the ego-car, with a pedestrian near the bus.**
 
-
+<div align="center">   
 
 https://github.com/f1yfisher/DriveDreamer2/assets/39218234/e43193ec-fb91-49ee-818c-b7a2c1a00909
 
-
+</div>
 
 **Rainy day, the windshield wipers of the truck are continuously clearing the windshield.**
 
-
+<div align="center">   
 
 https://github.com/f1yfisher/DriveDreamer2/assets/39218234/d05c2ab9-5c41-4dd3-bbd2-7a69b049b891
 
-
+</div>
 
 **Rainy day, the ego-car makes a left turn at the traffic signal, with vehicles behind proceeding straight through the intersection. (long video)**
 
+<div align="center">   
 
 https://github.com/f1yfisher/DriveDreamer2/assets/39218234/a766b12b-05a3-4755-858e-040c8bbf6ece
 
+</div>
 
 **Daytime, the ego-car drives straight through the traffic light, with a truck situated to the left front and pedestrians crossing on the right side. (long video)**
 
-
-
-
+<div align="center">   
 
 https://github.com/f1yfisher/DriveDreamer2/assets/39218234/e5f713dc-665f-49e2-8f70-3c5de101ffb4
 
-
+</div>
 
 
 
