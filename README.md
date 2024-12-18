@@ -20,8 +20,8 @@ World models have demonstrated superiority in autonomous driving, particularly i
 
 # News
 - **[2024/12/18]** 🚀 Inference code and model weight for video generation are realsed!
-- **[2024/12/10]** 🎉DriveDreamer-2 is accepted for AAAI'25!.
-- **[2024/03/11]** 🚀We release the [DriveDreamer-2](https://drivedreamer2.github.io/) project! (Key features: multi-view video generation, user-friendly with LLM)
+- **[2024/12/10]** 🎉 DriveDreamer-2 is accepted for AAAI'25!.
+- **[2024/03/11]** 🚀 We release the [DriveDreamer-2](https://drivedreamer2.github.io/) project! (Key features: multi-view video generation, user-friendly with LLM)
 
 # Getting Started
 
