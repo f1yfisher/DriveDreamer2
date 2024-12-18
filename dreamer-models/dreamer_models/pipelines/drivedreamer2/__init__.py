@@ -1,0 +1,1 @@
+from .pipeline_drivedreamer2 import DriveDreamer2Pipeline

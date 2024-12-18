@@ -18,10 +18,20 @@ World models have demonstrated superiority in autonomous driving, particularly i
 <img width="1327" alt="abs2" src="https://github.com/f1yfisher/DriveDreamer2/assets/39218234/edc11963-0443-4e3f-8309-8955330b4815">
 
 
-
-
 # News
-- **[2024/03/11]** Repository Initialization.
+- **[2024/12/18]** 🚀 Inference code and model weight for video generation are realsed!
+- **[2024/12/10]** 🎉DriveDreamer-2 is accepted for AAAI'25!.
+- **[2024/03/11]** 🚀We release the [DriveDreamer-2](https://drivedreamer2.github.io/) project! (Key features: multi-view video generation, user-friendly with LLM)
+
+# Getting Started
+
+Download model weights and preprocessing file [HERE](https://pan.baidu.com/s/1EPWcO_sCvlgqVFgNiDGk8w?pwd=dkjq).
+
+- [Installation](DOCS/install.md) 
+
+- [Prepare Dataset & Env](DOCS/preparation.md)
+
+- [Train, Test, Visualization](DOCS/trainval.md)
 
 
 # Demo
