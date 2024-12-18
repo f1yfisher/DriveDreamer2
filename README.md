@@ -7,7 +7,7 @@ Our team is actively working towards releasing the code for this project.
 
 We appreciate your patience and understanding as we navigate the necessary processes.
 
-Welcome to follow our new work, [DriveDreamer4D](https://drivedreamer4d.github.io/) and [ReconDreamer](https://recondreamer.github.io/)!
+Our new works, [DriveDreamer4D](https://drivedreamer4d.github.io/) and [ReconDreamer](https://recondreamer.github.io/), are released!
  
 ## [Project Page](https://drivedreamer2.github.io) | [Paper](https://arxiv.org/pdf/2403.06845.pdf)
 
