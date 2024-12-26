@@ -40,15 +40,15 @@ class DriveDreamer2_Tester(Tester):
             dataset,
             sampler=VideoSampler(
                     dataset, 
-                    data_config.sampler_info, 
                     batch_size=batch_size_per_gpu, 
                     frame_num=self.frame_num, 
                     cam_num=self.cam_num,
-                    cam_names=cam_names,
+                    video_split_rate=data_config.get('video_split_rate',1),
                     hz_factor=data_config.hz_factor,
                     mv_video=data_config.is_multiview, 
                     view=data_config.view,
-                    shuffle=data_config.shuffle),
+                    shuffle=data_config.shuffle,
+                    logger=self.logger),
             collate_fn=VideoCollator(
                 frame_num=self.frame_num,
                 img_mask_type=data_config.img_mask_type,
@@ -56,6 +56,7 @@ class DriveDreamer2_Tester(Tester):
                 if 'Video' in data_config.type else DefaultCollator(),
                 batch_size=batch_size_per_gpu,
                 num_workers=data_config.num_workers,)
+       
        
         return dataloader
     

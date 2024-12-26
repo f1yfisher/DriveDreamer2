@@ -194,8 +194,26 @@ class DriveDreamer2_Transform:
         canvas_box = canvas_box.transpose(1,2,0) 
         box_downsampler_input = self.box_transform(canvas_box)
         
+        scene_description = data_dict['scene_description']
+        if 'rain' in scene_description.lower():
+            prompt = 'rainy, realistic autonomous driving scene.'
+        elif 'night' in scene_description.lower():
+            prompt = 'night, realistic autonomous driving scene.'
+        else:
+            prompt = 'realistic autonomous driving scene.'
+        
         new_data_dict['box_downsampler_input'] = box_downsampler_input
-        prompt_embeds = self.prompt_embed_map[data_dict['prompts']]
+        prompt_embeds = self.prompt_embed_map[prompt]
+        new_data_dict.update(
+            {
+                'frame_idx':data_dict['frame_idx'],
+                'cam_type':data_dict['cam_type'],
+                'video_length':data_dict['video_length'],
+                
+             })
+        if 'multiview_start_idx' in data_dict:
+            new_data_dict.update({'multiview_start_idx':data_dict['multiview_start_idx'],})
+        
         if self.is_train:
             # tmp = self.prompt_transform(data_dict['prompts'], mode='before_pool')[0]
             # prompt_embeds = self.prompt_embed_map[data_dict['prompts']]
