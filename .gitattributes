@@ -1,4 +1,0 @@
-weights filter=lfs diff=lfs merge=lfs -text
-weights/pretrained_models/drivedreamer2_img_cond/pytorch_gligen_weights.bin filter=lfs diff=lfs merge=lfs -text
-weights/pretrained_models/drivedreamer2_video_cond/pytorch_gligen_weights.bin filter=lfs diff=lfs merge=lfs -text
-weights/pretrained_models/drivedreamer2_wo_img/pytorch_gligen_weights.bin filter=lfs diff=lfs merge=lfs -text
